@@ -2,9 +2,15 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {}
+index = {"datasourceNodes": "00_core.ipynb",
+         "modelNodes": "00_core.ipynb",
+         "stakeholderNodes": "00_core.ipynb",
+         "nodesDict": "00_core.ipynb",
+         "G": "00_core.ipynb",
+         "pos": "00_core.ipynb",
+         "color": "00_core.ipynb"}
 
-modules = []
+modules = ["core.py"]
 
 doc_url = "https://saurk.github.io/dependencygraph/"
 
