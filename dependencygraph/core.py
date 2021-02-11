@@ -3,6 +3,13 @@
 __all__ = ['datasourceNodes', 'modelNodes', 'stakeholderNodes', 'nodesDict', 'G', 'pos', 'color']
 
 # Cell
+import networkx as nx
+import matplotlib.pyplot as plt
+from random import seed, random
+import itertools
+
+
+# Cell
 datasourceNodes = ['Table_' + f'{i:02}' for i in range(0,6)]
 modelNodes = ['Model_' + i for i in map(chr, range(ord('A'), ord('D')+1))]
 stakeholderNodes = ['Stkh_' + f'{i:02}' for i in range(0,4)]
